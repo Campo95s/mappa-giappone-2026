@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d162634d909cb4deec6b35df729c9172 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d162634d909cb4deec6b35df729c9172" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d162634d909cb4deec6b35df729c9172 = L.map(
+                "map_d162634d909cb4deec6b35df729c9172",
+                {
+                    center: [34.7, 135.5],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0218183b67ede6ba67c1eec5947264f1 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d162634d909cb4deec6b35df729c9172);
+        
+    
+            var marker_cluster_afa6b9c7169ca2ea6f6e011a459b13f5 = L.markerClusterGroup(
+                {}
+            );
+            map_d162634d909cb4deec6b35df729c9172.addLayer(marker_cluster_afa6b9c7169ca2ea6f6e011a459b13f5);
+        
+    
+            var marker_f1deec6aec2dd5c15b2320e08ebaec39 = L.marker(
+                [35.7148, 139.7967],
+                {}
+            ).addTo(marker_cluster_afa6b9c7169ca2ea6f6e011a459b13f5);
+        
+    
+        var popup_4a4279484656a115a53fbc2f7db0cbc7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f87c96b4582d8cb49e26e84033bc611 = $(`<div id="html_7f87c96b4582d8cb49e26e84033bc611" style="width: 100.0%; height: 100.0%;"><b>Sensō-ji</b><br>Tempio buddista più antico di Tokyo</div>`)[0];
+            popup_4a4279484656a115a53fbc2f7db0cbc7.setContent(html_7f87c96b4582d8cb49e26e84033bc611);
+        
+
+        marker_f1deec6aec2dd5c15b2320e08ebaec39.bindPopup(popup_4a4279484656a115a53fbc2f7db0cbc7)
+        ;
+
+        
+    
+    
+            marker_f1deec6aec2dd5c15b2320e08ebaec39.bindTooltip(
+                `<div>
+                     Sensō-ji
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ff62e330fb45b87fc27bc58e91014b52 = L.marker(
+                [35.7156, 139.7745],
+                {}
+            ).addTo(marker_cluster_afa6b9c7169ca2ea6f6e011a459b13f5);
+        
+    
+        var popup_fdb9f7ad7202dd831eb231c0e241c2fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a20cb0ffdb80faa7dd2d4974d94e9344 = $(`<div id="html_a20cb0ffdb80faa7dd2d4974d94e9344" style="width: 100.0%; height: 100.0%;"><b>Parco di Ueno</b><br>Ampio parco famoso per l'hanami</div>`)[0];
+            popup_fdb9f7ad7202dd831eb231c0e241c2fb.setContent(html_a20cb0ffdb80faa7dd2d4974d94e9344);
+        
+
+        marker_ff62e330fb45b87fc27bc58e91014b52.bindPopup(popup_fdb9f7ad7202dd831eb231c0e241c2fb)
+        ;
+
+        
+    
+    
+            marker_ff62e330fb45b87fc27bc58e91014b52.bindTooltip(
+                `<div>
+                     Parco di Ueno
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_54d36313dbc92b5f6eee9bad693dcdee = L.marker(
+                [35.7188, 139.7765],
+                {}
+            ).addTo(marker_cluster_afa6b9c7169ca2ea6f6e011a459b13f5);
+        
+    
+        var popup_07315269136ed4d642c162ffc73c1c50 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_285932f409d3505dc17e2efe69dcb8bf = $(`<div id="html_285932f409d3505dc17e2efe69dcb8bf" style="width: 100.0%; height: 100.0%;"><b>Museo Nazionale di Tokyo</b><br>Museo d'arte e archeologia</div>`)[0];
+            popup_07315269136ed4d642c162ffc73c1c50.setContent(html_285932f409d3505dc17e2efe69dcb8bf);
+        
+
+        marker_54d36313dbc92b5f6eee9bad693dcdee.bindPopup(popup_07315269136ed4d642c162ffc73c1c50)
+        ;
+
+        
+    
+    
+            marker_54d36313dbc92b5f6eee9bad693dcdee.bindTooltip(
+                `<div>
+                     Museo Nazionale di Tokyo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_76650aefed06ce98d12ea528a0a0fa26 = L.marker(
+                [35.6595, 139.7005],
+                {}
+            ).addTo(marker_cluster_afa6b9c7169ca2ea6f6e011a459b13f5);
+        
+    
+        var popup_dc91f1d74c25ff5efc5d935dba39896b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb7ed7975a3da4621645112bea115ba7 = $(`<div id="html_bb7ed7975a3da4621645112bea115ba7" style="width: 100.0%; height: 100.0%;"><b>Shibuya Crossing</b><br>Incrocio pedonale iconico</div>`)[0];
+            popup_dc91f1d74c25ff5efc5d935dba39896b.setContent(html_bb7ed7975a3da4621645112bea115ba7);
+        
+
+        marker_76650aefed06ce98d12ea528a0a0fa26.bindPopup(popup_dc91f1d74c25ff5efc5d935dba39896b)
+        ;
+
+        
+    
+    
+            marker_76650aefed06ce98d12ea528a0a0fa26.bindTooltip(
+                `<div>
+                     Shibuya Crossing
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_62cc6cf74df4845349df9da012a9354a = L.marker(
+                [35.6702, 139.702],
+                {}
+            ).addTo(marker_cluster_afa6b9c7169ca2ea6f6e011a459b13f5);
+        
+    
+        var popup_97fe3444b719c1831dbc65c46889fabd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f28464899b9605ca1e6804b34065d1d2 = $(`<div id="html_f28464899b9605ca1e6804b34065d1d2" style="width: 100.0%; height: 100.0%;"><b>Takeshita Street</b><br>Via della moda giovanile</div>`)[0];
+            popup_97fe3444b719c1831dbc65c46889fabd.setContent(html_f28464899b9605ca1e6804b34065d1d2);
+        
+
+        marker_62cc6cf74df4845349df9da012a9354a.bindPopup(popup_97fe3444b719c1831dbc65c46889fabd)
+        ;
+
+        
+    
+    
+            marker_62cc6cf74df4845349df9da012a9354a.bindTooltip(
+                `<div>
+                     Takeshita Street
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_81aacaf3a48962ab44a39dcfbe4fc305 = L.marker(
+                [35.6764, 139.6993],
+                {}
+            ).addTo(marker_cluster_afa6b9c7169ca2ea6f6e011a459b13f5);
+        
+    
+        var popup_51a98d15170db402dbf04f6f9f73dab7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67e9e06d965c32c8d57c844915545f35 = $(`<div id="html_67e9e06d965c32c8d57c844915545f35" style="width: 100.0%; height: 100.0%;"><b>Meiji Jingu</b><br>Santuario shintoista immerso nel verde</div>`)[0];
+            popup_51a98d15170db402dbf04f6f9f73dab7.setContent(html_67e9e06d965c32c8d57c844915545f35);
+        
+
+        marker_81aacaf3a48962ab44a39dcfbe4fc305.bindPopup(popup_51a98d15170db402dbf04f6f9f73dab7)
+        ;
+
+        
+    
+    
+            marker_81aacaf3a48962ab44a39dcfbe4fc305.bindTooltip(
+                `<div>
+                     Meiji Jingu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_11a26e21f9370678c8331f97692671aa = L.marker(
+                [35.6895, 139.6917],
+                {}
+            ).addTo(marker_cluster_afa6b9c7169ca2ea6f6e011a459b13f5);
+        
+    
+        var popup_2e860d5638674da28bf5e9caf9b2d370 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ab4ca5d8be4358b7539c3fc1cae7bd8 = $(`<div id="html_6ab4ca5d8be4358b7539c3fc1cae7bd8" style="width: 100.0%; height: 100.0%;"><b>Tokyo Metropolitan Building</b><br>Osservatorio gratuito</div>`)[0];
+            popup_2e860d5638674da28bf5e9caf9b2d370.setContent(html_6ab4ca5d8be4358b7539c3fc1cae7bd8);
+        
+
+        marker_11a26e21f9370678c8331f97692671aa.bindPopup(popup_2e860d5638674da28bf5e9caf9b2d370)
+        ;
+
+        
+    
+    
+            marker_11a26e21f9370678c8331f97692671aa.bindTooltip(
+                `<div>
+                     Tokyo Metropolitan Building
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a2d5f60b4c926eac762ebc62145e46fb = L.marker(
+                [35.6852, 139.71],
+                {}
+            ).addTo(marker_cluster_afa6b9c7169ca2ea6f6e011a459b13f5);
+        
+    
+        var popup_d67f4cab79912dcdec0d0e8905a9cf6b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01bd60187f08ba3687dedb5256e6da0c = $(`<div id="html_01bd60187f08ba3687dedb5256e6da0c" style="width: 100.0%; height: 100.0%;"><b>Shinjuku Gyoen</b><br>Giardino ideale per l'hanami</div>`)[0];
+            popup_d67f4cab79912dcdec0d0e8905a9cf6b.setContent(html_01bd60187f08ba3687dedb5256e6da0c);
+        
+
+        marker_a2d5f60b4c926eac762ebc62145e46fb.bindPopup(popup_d67f4cab79912dcdec0d0e8905a9cf6b)
+        ;
+
+        
+    
+    
+            marker_a2d5f60b4c926eac762ebc62145e46fb.bindTooltip(
+                `<div>
+                     Shinjuku Gyoen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_24fb321b14ea8ed5001cd992e1effe08 = L.marker(
+                [35.6938, 139.7041],
+                {}
+            ).addTo(marker_cluster_afa6b9c7169ca2ea6f6e011a459b13f5);
+        
+    
+        var popup_73f31cb8dbe532638215aa88482bcb80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68f417f7931b630badf4bc50d09e5872 = $(`<div id="html_68f417f7931b630badf4bc50d09e5872" style="width: 100.0%; height: 100.0%;"><b>Golden Gai</b><br>Zona di izakaya tradizionali</div>`)[0];
+            popup_73f31cb8dbe532638215aa88482bcb80.setContent(html_68f417f7931b630badf4bc50d09e5872);
+        
+
+        marker_24fb321b14ea8ed5001cd992e1effe08.bindPopup(popup_73f31cb8dbe532638215aa88482bcb80)
+        ;
+
+        
+    
+    
+            marker_24fb321b14ea8ed5001cd992e1effe08.bindTooltip(
+                `<div>
+                     Golden Gai
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7c6ac118d1ec163748c3146ea5a65e74 = L.marker(
+                [35.7281, 139.767],
+                {}
+            ).addTo(marker_cluster_afa6b9c7169ca2ea6f6e011a459b13f5);
+        
+    
+        var popup_00ec555b496bf5631e2a75fb4903d522 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2db7d0593419d92f67658053a932f978 = $(`<div id="html_2db7d0593419d92f67658053a932f978" style="width: 100.0%; height: 100.0%;"><b>Yanaka Ginza</b><br>Quartiere storico di Tokyo</div>`)[0];
+            popup_00ec555b496bf5631e2a75fb4903d522.setContent(html_2db7d0593419d92f67658053a932f978);
+        
+
+        marker_7c6ac118d1ec163748c3146ea5a65e74.bindPopup(popup_00ec555b496bf5631e2a75fb4903d522)
+        ;
+
+        
+    
+    
+            marker_7c6ac118d1ec163748c3146ea5a65e74.bindTooltip(
+                `<div>
+                     Yanaka Ginza
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_329380cb9a405942a30d3d40cdec2815 = L.marker(
+                [35.6984, 139.773],
+                {}
+            ).addTo(marker_cluster_afa6b9c7169ca2ea6f6e011a459b13f5);
+        
+    
+        var popup_5261648cec490db30e797d95e41bca94 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48336264bb245801b459dc2841fd837e = $(`<div id="html_48336264bb245801b459dc2841fd837e" style="width: 100.0%; height: 100.0%;"><b>Akihabara</b><br>Centro della cultura otaku</div>`)[0];
+            popup_5261648cec490db30e797d95e41bca94.setContent(html_48336264bb245801b459dc2841fd837e);
+        
+
+        marker_329380cb9a405942a30d3d40cdec2815.bindPopup(popup_5261648cec490db30e797d95e41bca94)
+        ;
+
+        
+    
+    
+            marker_329380cb9a405942a30d3d40cdec2815.bindTooltip(
+                `<div>
+                     Akihabara
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8a2ed92abf94ca754d079b79784eaa02 = L.marker(
+                [35.6556, 139.8008],
+                {}
+            ).addTo(marker_cluster_afa6b9c7169ca2ea6f6e011a459b13f5);
+        
+    
+        var popup_6309631cd2791b66c17c3805a07fec45 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74e9ce8fafecd313f272b3bf526cb51a = $(`<div id="html_74e9ce8fafecd313f272b3bf526cb51a" style="width: 100.0%; height: 100.0%;"><b>TeamLab Planets</b><br>Museo interattivo immersivo</div>`)[0];
+            popup_6309631cd2791b66c17c3805a07fec45.setContent(html_74e9ce8fafecd313f272b3bf526cb51a);
+        
+
+        marker_8a2ed92abf94ca754d079b79784eaa02.bindPopup(popup_6309631cd2791b66c17c3805a07fec45)
+        ;
+
+        
+    
+    
+            marker_8a2ed92abf94ca754d079b79784eaa02.bindTooltip(
+                `<div>
+                     TeamLab Planets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d3bc956b489392e47095258cd331c18d = L.marker(
+                [35.6279, 139.7754],
+                {}
+            ).addTo(marker_cluster_afa6b9c7169ca2ea6f6e011a459b13f5);
+        
+    
+        var popup_bf97b728bcd4ecad850bb9e213802d45 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_56691ad78ab2d1f9f6394b4633a53816 = $(`<div id="html_56691ad78ab2d1f9f6394b4633a53816" style="width: 100.0%; height: 100.0%;"><b>DiverCity & Gundam</b><br>Statua gigante e centro commerciale</div>`)[0];
+            popup_bf97b728bcd4ecad850bb9e213802d45.setContent(html_56691ad78ab2d1f9f6394b4633a53816);
+        
+
+        marker_d3bc956b489392e47095258cd331c18d.bindPopup(popup_bf97b728bcd4ecad850bb9e213802d45)
+        ;
+
+        
+    
+    
+            marker_d3bc956b489392e47095258cd331c18d.bindTooltip(
+                `<div>
+                     DiverCity & Gundam
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1809266bd49ce1d90658b2124953a1f6 = L.marker(
+                [35.6416, 139.698],
+                {}
+            ).addTo(marker_cluster_afa6b9c7169ca2ea6f6e011a459b13f5);
+        
+    
+        var popup_84161c83679e1d6808ba25d68a12d2ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b1ad17ffa4e3ecdcc903f8aa75110fa = $(`<div id="html_5b1ad17ffa4e3ecdcc903f8aa75110fa" style="width: 100.0%; height: 100.0%;"><b>Meguro River</b><br>Passeggiata tra ciliegi in fiore</div>`)[0];
+            popup_84161c83679e1d6808ba25d68a12d2ce.setContent(html_5b1ad17ffa4e3ecdcc903f8aa75110fa);
+        
+
+        marker_1809266bd49ce1d90658b2124953a1f6.bindPopup(popup_84161c83679e1d6808ba25d68a12d2ce)
+        ;
+
+        
+    
+    
+            marker_1809266bd49ce1d90658b2124953a1f6.bindTooltip(
+                `<div>
+                     Meguro River
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b0bdf039a6ed9d6869d669e4bea848ab = L.marker(
+                [35.6812, 139.7671],
+                {}
+            ).addTo(marker_cluster_afa6b9c7169ca2ea6f6e011a459b13f5);
+        
+    
+        var popup_25f9299e9046fb9bda8bbeedb25c43cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a912ea5a3e7922bef1800c6ccf073db = $(`<div id="html_4a912ea5a3e7922bef1800c6ccf073db" style="width: 100.0%; height: 100.0%;"><b>Tokyo Station</b><br>Snodo principale e shopping</div>`)[0];
+            popup_25f9299e9046fb9bda8bbeedb25c43cd.setContent(html_4a912ea5a3e7922bef1800c6ccf073db);
+        
+
+        marker_b0bdf039a6ed9d6869d669e4bea848ab.bindPopup(popup_25f9299e9046fb9bda8bbeedb25c43cd)
+        ;
+
+        
+    
+    
+            marker_b0bdf039a6ed9d6869d669e4bea848ab.bindTooltip(
+                `<div>
+                     Tokyo Station
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bb0b18fa1f106956a545c59e5e50796b = L.marker(
+                [34.9671, 135.7727],
+                {}
+            ).addTo(marker_cluster_afa6b9c7169ca2ea6f6e011a459b13f5);
+        
+    
+        var popup_52fe869d6490ffcb0801fa86a9b55aec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c60610a2973f1c0074878d14fa90c73 = $(`<div id="html_3c60610a2973f1c0074878d14fa90c73" style="width: 100.0%; height: 100.0%;"><b>Fushimi Inari Taisha</b><br>Santuario famoso per i torii rossi</div>`)[0];
+            popup_52fe869d6490ffcb0801fa86a9b55aec.setContent(html_3c60610a2973f1c0074878d14fa90c73);
+        
+
+        marker_bb0b18fa1f106956a545c59e5e50796b.bindPopup(popup_52fe869d6490ffcb0801fa86a9b55aec)
+        ;
+
+        
+    
+    
+            marker_bb0b18fa1f106956a545c59e5e50796b.bindTooltip(
+                `<div>
+                     Fushimi Inari Taisha
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c9de846f145dbcf61aba703542f89d88 = L.marker(
+                [35.0394, 135.7292],
+                {}
+            ).addTo(marker_cluster_afa6b9c7169ca2ea6f6e011a459b13f5);
+        
+    
+        var popup_b02fe90ba6b884d5d7ab1bf647b5787c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c2dd45fcb2b21fc30dc3f1e51c560f9c = $(`<div id="html_c2dd45fcb2b21fc30dc3f1e51c560f9c" style="width: 100.0%; height: 100.0%;"><b>Kinkaku-ji</b><br>Padiglione d’Oro</div>`)[0];
+            popup_b02fe90ba6b884d5d7ab1bf647b5787c.setContent(html_c2dd45fcb2b21fc30dc3f1e51c560f9c);
+        
+
+        marker_c9de846f145dbcf61aba703542f89d88.bindPopup(popup_b02fe90ba6b884d5d7ab1bf647b5787c)
+        ;
+
+        
+    
+    
+            marker_c9de846f145dbcf61aba703542f89d88.bindTooltip(
+                `<div>
+                     Kinkaku-ji
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_892f8212518d3c7b7134b0592f067c6b = L.marker(
+                [35.0037, 135.7788],
+                {}
+            ).addTo(marker_cluster_afa6b9c7169ca2ea6f6e011a459b13f5);
+        
+    
+        var popup_b3ea7d7c6956d6ee91b21430c126b1a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c60f44434a25e2e198a053cf3b5938a = $(`<div id="html_6c60f44434a25e2e198a053cf3b5938a" style="width: 100.0%; height: 100.0%;"><b>Gion</b><br>Quartiere delle geisha</div>`)[0];
+            popup_b3ea7d7c6956d6ee91b21430c126b1a1.setContent(html_6c60f44434a25e2e198a053cf3b5938a);
+        
+
+        marker_892f8212518d3c7b7134b0592f067c6b.bindPopup(popup_b3ea7d7c6956d6ee91b21430c126b1a1)
+        ;
+
+        
+    
+    
+            marker_892f8212518d3c7b7134b0592f067c6b.bindTooltip(
+                `<div>
+                     Gion
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a78788dfaac5f6b9cb76febc31c2214a = L.marker(
+                [35.0094, 135.6664],
+                {}
+            ).addTo(marker_cluster_afa6b9c7169ca2ea6f6e011a459b13f5);
+        
+    
+        var popup_876f1935696bbb18c20babc3443db320 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_000b1d7c0c0f6dc9eb428bf4d41dea88 = $(`<div id="html_000b1d7c0c0f6dc9eb428bf4d41dea88" style="width: 100.0%; height: 100.0%;"><b>Arashiyama</b><br>Foresta di bambù e ponte Togetsukyo</div>`)[0];
+            popup_876f1935696bbb18c20babc3443db320.setContent(html_000b1d7c0c0f6dc9eb428bf4d41dea88);
+        
+
+        marker_a78788dfaac5f6b9cb76febc31c2214a.bindPopup(popup_876f1935696bbb18c20babc3443db320)
+        ;
+
+        
+    
+    
+            marker_a78788dfaac5f6b9cb76febc31c2214a.bindTooltip(
+                `<div>
+                     Arashiyama
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_52934fc13910d76d3be754e8b033256d = L.marker(
+                [34.9948, 135.785],
+                {}
+            ).addTo(marker_cluster_afa6b9c7169ca2ea6f6e011a459b13f5);
+        
+    
+        var popup_67899b62c10f3156cb13e1ebf8615542 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85a3fbb1d8b59b0b7ffba62d73dd7f9a = $(`<div id="html_85a3fbb1d8b59b0b7ffba62d73dd7f9a" style="width: 100.0%; height: 100.0%;"><b>Kiyomizu-dera</b><br>Tempio panoramico su Kyoto</div>`)[0];
+            popup_67899b62c10f3156cb13e1ebf8615542.setContent(html_85a3fbb1d8b59b0b7ffba62d73dd7f9a);
+        
+
+        marker_52934fc13910d76d3be754e8b033256d.bindPopup(popup_67899b62c10f3156cb13e1ebf8615542)
+        ;
+
+        
+    
+    
+            marker_52934fc13910d76d3be754e8b033256d.bindTooltip(
+                `<div>
+                     Kiyomizu-dera
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0bae4299912a4ddf7be1afa73032ee47 = L.marker(
+                [34.6873, 135.5262],
+                {}
+            ).addTo(marker_cluster_afa6b9c7169ca2ea6f6e011a459b13f5);
+        
+    
+        var popup_efb3b7388dede91e67a8c0845b6fc541 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86e4e6e91ed1642d288ba5e985f35f16 = $(`<div id="html_86e4e6e91ed1642d288ba5e985f35f16" style="width: 100.0%; height: 100.0%;"><b>Castello di Osaka</b><br>Castello simbolo della città</div>`)[0];
+            popup_efb3b7388dede91e67a8c0845b6fc541.setContent(html_86e4e6e91ed1642d288ba5e985f35f16);
+        
+
+        marker_0bae4299912a4ddf7be1afa73032ee47.bindPopup(popup_efb3b7388dede91e67a8c0845b6fc541)
+        ;
+
+        
+    
+    
+            marker_0bae4299912a4ddf7be1afa73032ee47.bindTooltip(
+                `<div>
+                     Castello di Osaka
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d480cce976fa70f32190125263c5749c = L.marker(
+                [34.6687, 135.5019],
+                {}
+            ).addTo(marker_cluster_afa6b9c7169ca2ea6f6e011a459b13f5);
+        
+    
+        var popup_539a8c2e2371e44a13644f59091f288c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f0e19272417abacd5d593dc3618fe03 = $(`<div id="html_8f0e19272417abacd5d593dc3618fe03" style="width: 100.0%; height: 100.0%;"><b>Dotonbori</b><br>Zona di ristoranti e insegne luminose</div>`)[0];
+            popup_539a8c2e2371e44a13644f59091f288c.setContent(html_8f0e19272417abacd5d593dc3618fe03);
+        
+
+        marker_d480cce976fa70f32190125263c5749c.bindPopup(popup_539a8c2e2371e44a13644f59091f288c)
+        ;
+
+        
+    
+    
+            marker_d480cce976fa70f32190125263c5749c.bindTooltip(
+                `<div>
+                     Dotonbori
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_378674b3aab3e37db96f4be3605d5aea = L.marker(
+                [34.7055, 135.4892],
+                {}
+            ).addTo(marker_cluster_afa6b9c7169ca2ea6f6e011a459b13f5);
+        
+    
+        var popup_a3b992435dd0170dc76aa7ee6170bf53 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8193c99e4478ab46203dc64138592ee5 = $(`<div id="html_8193c99e4478ab46203dc64138592ee5" style="width: 100.0%; height: 100.0%;"><b>Umeda Sky Building</b><br>Osservatorio con vista panoramica</div>`)[0];
+            popup_a3b992435dd0170dc76aa7ee6170bf53.setContent(html_8193c99e4478ab46203dc64138592ee5);
+        
+
+        marker_378674b3aab3e37db96f4be3605d5aea.bindPopup(popup_a3b992435dd0170dc76aa7ee6170bf53)
+        ;
+
+        
+    
+    
+            marker_378674b3aab3e37db96f4be3605d5aea.bindTooltip(
+                `<div>
+                     Umeda Sky Building
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3210a97cb6c7d248970423b4de525455 = L.marker(
+                [34.3204, 134.0432],
+                {}
+            ).addTo(marker_cluster_afa6b9c7169ca2ea6f6e011a459b13f5);
+        
+    
+        var popup_ab076e43373a1f96cc9683d39f884b90 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca24ef9420704a5817cbc7105b644f0a = $(`<div id="html_ca24ef9420704a5817cbc7105b644f0a" style="width: 100.0%; height: 100.0%;"><b>Ritsurin Garden</b><br>Giardino paesaggistico a Takamatsu</div>`)[0];
+            popup_ab076e43373a1f96cc9683d39f884b90.setContent(html_ca24ef9420704a5817cbc7105b644f0a);
+        
+
+        marker_3210a97cb6c7d248970423b4de525455.bindPopup(popup_ab076e43373a1f96cc9683d39f884b90)
+        ;
+
+        
+    
+    
+            marker_3210a97cb6c7d248970423b4de525455.bindTooltip(
+                `<div>
+                     Ritsurin Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cd71b9730d4805d3d1bc7b16b7b9072a = L.marker(
+                [34.3521, 134.0495],
+                {}
+            ).addTo(marker_cluster_afa6b9c7169ca2ea6f6e011a459b13f5);
+        
+    
+        var popup_6551b36bd28dc4fd732100e1db654cbf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d7d7fdf7957e8517d268e8a3ea461d3 = $(`<div id="html_3d7d7fdf7957e8517d268e8a3ea461d3" style="width: 100.0%; height: 100.0%;"><b>Takamatsu Castle</b><br>Rovine con fossati d'acqua salata</div>`)[0];
+            popup_6551b36bd28dc4fd732100e1db654cbf.setContent(html_3d7d7fdf7957e8517d268e8a3ea461d3);
+        
+
+        marker_cd71b9730d4805d3d1bc7b16b7b9072a.bindPopup(popup_6551b36bd28dc4fd732100e1db654cbf)
+        ;
+
+        
+    
+    
+            marker_cd71b9730d4805d3d1bc7b16b7b9072a.bindTooltip(
+                `<div>
+                     Takamatsu Castle
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_381ea225e8bc86106bc67c51556c5c9d = L.marker(
+                [34.4592, 133.9957],
+                {}
+            ).addTo(marker_cluster_afa6b9c7169ca2ea6f6e011a459b13f5);
+        
+    
+        var popup_b230574b0ee13d973078be4c3ebcd08b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e171f65a69cf0bf619ceff0088e386ee = $(`<div id="html_e171f65a69cf0bf619ceff0088e386ee" style="width: 100.0%; height: 100.0%;"><b>Chichu Art Museum</b><br>Museo sotterraneo a Naoshima</div>`)[0];
+            popup_b230574b0ee13d973078be4c3ebcd08b.setContent(html_e171f65a69cf0bf619ceff0088e386ee);
+        
+
+        marker_381ea225e8bc86106bc67c51556c5c9d.bindPopup(popup_b230574b0ee13d973078be4c3ebcd08b)
+        ;
+
+        
+    
+    
+            marker_381ea225e8bc86106bc67c51556c5c9d.bindTooltip(
+                `<div>
+                     Chichu Art Museum
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_58a796475cb89698c48e29e5eda33020 = L.marker(
+                [34.4596, 133.9985],
+                {}
+            ).addTo(marker_cluster_afa6b9c7169ca2ea6f6e011a459b13f5);
+        
+    
+        var popup_52d99cd4cab0daf0dbe9d1b242964182 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d635ad6c05b787588f13e4b187ed41f = $(`<div id="html_1d635ad6c05b787588f13e4b187ed41f" style="width: 100.0%; height: 100.0%;"><b>Benesse House</b><br>Museo e hotel sulla spiaggia</div>`)[0];
+            popup_52d99cd4cab0daf0dbe9d1b242964182.setContent(html_1d635ad6c05b787588f13e4b187ed41f);
+        
+
+        marker_58a796475cb89698c48e29e5eda33020.bindPopup(popup_52d99cd4cab0daf0dbe9d1b242964182)
+        ;
+
+        
+    
+    
+            marker_58a796475cb89698c48e29e5eda33020.bindTooltip(
+                `<div>
+                     Benesse House
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4394afd8fb3aac9a903e20bd6a0402cc = L.marker(
+                [33.8394, 132.7657],
+                {}
+            ).addTo(marker_cluster_afa6b9c7169ca2ea6f6e011a459b13f5);
+        
+    
+        var popup_96cb651b70e204616cd7b613ae6e570e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84f972cbc4075089098d2e8fcc822c96 = $(`<div id="html_84f972cbc4075089098d2e8fcc822c96" style="width: 100.0%; height: 100.0%;"><b>Castello di Matsuyama</b><br>Castello feudale originale</div>`)[0];
+            popup_96cb651b70e204616cd7b613ae6e570e.setContent(html_84f972cbc4075089098d2e8fcc822c96);
+        
+
+        marker_4394afd8fb3aac9a903e20bd6a0402cc.bindPopup(popup_96cb651b70e204616cd7b613ae6e570e)
+        ;
+
+        
+    
+    
+            marker_4394afd8fb3aac9a903e20bd6a0402cc.bindTooltip(
+                `<div>
+                     Castello di Matsuyama
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6203185e96cbd9b0b41769c54cd80516 = L.marker(
+                [33.8418, 132.7866],
+                {}
+            ).addTo(marker_cluster_afa6b9c7169ca2ea6f6e011a459b13f5);
+        
+    
+        var popup_1ff3116cccf3c76f7dc0bfd69b0cdcd0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5705d773981201cb477ecb1ba755feaa = $(`<div id="html_5705d773981201cb477ecb1ba755feaa" style="width: 100.0%; height: 100.0%;"><b>Dōgo Onsen</b><br>Terme storiche tra le più antiche</div>`)[0];
+            popup_1ff3116cccf3c76f7dc0bfd69b0cdcd0.setContent(html_5705d773981201cb477ecb1ba755feaa);
+        
+
+        marker_6203185e96cbd9b0b41769c54cd80516.bindPopup(popup_1ff3116cccf3c76f7dc0bfd69b0cdcd0)
+        ;
+
+        
+    
+    
+            marker_6203185e96cbd9b0b41769c54cd80516.bindTooltip(
+                `<div>
+                     Dōgo Onsen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_47189f2ed72e406030cac2ba892348b2 = L.marker(
+                [33.5604, 132.6541],
+                {}
+            ).addTo(marker_cluster_afa6b9c7169ca2ea6f6e011a459b13f5);
+        
+    
+        var popup_b17c9072ec8dc1db5782dd80fb382a59 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d66bf78fadf97e85742c31541d5d9fe4 = $(`<div id="html_d66bf78fadf97e85742c31541d5d9fe4" style="width: 100.0%; height: 100.0%;"><b>Uchiko-za</b><br>Teatro tradizionale dell’epoca Meiji</div>`)[0];
+            popup_b17c9072ec8dc1db5782dd80fb382a59.setContent(html_d66bf78fadf97e85742c31541d5d9fe4);
+        
+
+        marker_47189f2ed72e406030cac2ba892348b2.bindPopup(popup_b17c9072ec8dc1db5782dd80fb382a59)
+        ;
+
+        
+    
+    
+            marker_47189f2ed72e406030cac2ba892348b2.bindTooltip(
+                `<div>
+                     Uchiko-za
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
