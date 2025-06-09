@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>Shibuya Crossing (Tokyo)</name>
+      <Point>
+        <coordinates>139.7005,35.6595,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Meiji Jingu (Tokyo)</name>
+      <Point>
+        <coordinates>139.6993,35.6764,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Asakusa - Senso-ji (Tokyo)</name>
+      <Point>
+        <coordinates>139.7967,35.7148,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ueno Park (Tokyo)</name>
+      <Point>
+        <coordinates>139.7745,35.7167,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tokyo Tower (Tokyo)</name>
+      <Point>
+        <coordinates>139.7454,35.6586,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fushimi Inari Taisha (Kyoto)</name>
+      <Point>
+        <coordinates>135.7727,34.9671,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kinkaku-ji (Padiglione d’Oro) (Kyoto)</name>
+      <Point>
+        <coordinates>135.7289,35.0394,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gion (Kyoto)</name>
+      <Point>
+        <coordinates>135.7788,35.0037,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Arashiyama Bamboo Grove (Kyoto)</name>
+      <Point>
+        <coordinates>135.6668,35.0094,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kiyomizu-dera (Kyoto)</name>
+      <Point>
+        <coordinates>135.785,34.9948,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Osaka Castle (Osaka)</name>
+      <Point>
+        <coordinates>135.5259,34.6873,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dotonbori (Osaka)</name>
+      <Point>
+        <coordinates>135.5012,34.6687,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Umeda Sky Building (Osaka)</name>
+      <Point>
+        <coordinates>135.4891,34.7055,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kuromon Ichiba Market (Osaka)</name>
+      <Point>
+        <coordinates>135.5062,34.6654,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ritsurin Garden (Takamatsu)</name>
+      <Point>
+        <coordinates>134.0434,34.3219,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Matsuyama Castle (Matsuyama)</name>
+      <Point>
+        <coordinates>132.7657,33.8394,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Iya Valley (Tokushima)</name>
+      <Point>
+        <coordinates>133.8072,33.8448,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Naruto Whirlpools (Naruto)</name>
+      <Point>
+        <coordinates>134.6536,34.24,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
